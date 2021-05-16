@@ -9,3 +9,5 @@ That will compile everything and run the game when u close the game copy the res
 just go to the bin/debug folder and type `./main`
 PLEASE DO NOT EDIT ANY FILES.
 alr **bai**
+# pull requests
+Sure but not yet because ik what people will say already and remember **I CANT MAKE IT BETTER UNTIL CODER GOPHER UPDATES HIS SDL2 TUTORIAL**
