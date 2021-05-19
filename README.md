@@ -11,7 +11,11 @@ just go to the bin/debug folder and type `./main`
 PLEASE DO NOT EDIT ANY FILES.
 # Running 2
 I found out my code is compatible with EmScripten...
-To compile it with emscripten instead of make run `emcc src/*.cpp -I include -O2 -s USE_SDL=2 -s USE_SDL_IMAGE=2 -s "SDL2_IMAGE_FORMATS=['png']" -s USE_SDL_TTF=2 -s USE_SDL_MIXER=2 -std=c++14 --preload-file res -o index.html` in the root of the project (its the same command for all operating systems)
+To compile it with emscripten instead of make run 
+```
+emcc src/*.cpp -I include -O2 -s USE_SDL=2 -s USE_SDL_IMAGE=2 -s "SDL2_IMAGE_FORMATS=['png']" -s USE_SDL_TTF=2 -s USE_SDL_MIXER=2 -std=c++14 --preload-file res -o index.html
+``` 
+in the root of the project (its the same command for all operating systems)
 To play it (without doing crazy stuff go [here](https://hdfsyu.itch.io/sdlgame) and then go to the description of the page.
 # pull requests
 Sure but not yet because ik what people will say already and remember **I CANT MAKE IT BETTER UNTIL CODER GOPHER UPDATES HIS SDL2 TUTORIAL** ok now **bai**
