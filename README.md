@@ -9,13 +9,13 @@ That will compile everything and run the game when u close the game copy the res
 # Running
 just go to the bin/debug folder and type `./main` on windows its gonna be `main.exe`
 PLEASE DO NOT EDIT ANY FILES.
-# Running 2
+# Building
 I found out my code is compatible with EmScripten...
 To compile it with emscripten instead of make run:
 `make emcc`
 in the root of the project (its the same command for all operating systems)
 To play it (without doing crazy stuff go [here](https://hdfsyu.itch.io/sdlgame) and then go to the description of the page.
-# Running 3
+# Building 2
 To run it on windows run:
 `make win`
 in the root of the project
