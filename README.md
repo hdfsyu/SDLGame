@@ -22,5 +22,7 @@ in the root of the project.
 If u get an error saying SDL2.dll is missing from ur computer or something like that copy all the dlls from C:\SDL2-w64\bin\ and paste it into debug NOT RELEASE!
 # Building 3
 I also found out my code is compatible with Mac OS X and higher run `make` to compile it and copy res to bin/debug NOT RELEASE! and it should compile fine
+# Installer
+using the installer is simple but u gotta do some stuff manually! Take note of the path that u installed it to and go to the path it installed to then make a new folder called res and move the folders dev and gfx into the res folder! Then run the executable (u can change the name of the executable or add it to the PATH enviorment variable)
 # pull requests
 Sure but not yet because ik what people will say already and remember **I CANT MAKE IT BETTER UNTIL CODER GOPHER UPDATES HIS SDL2 TUTORIAL** ok now **bai**
