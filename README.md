@@ -14,7 +14,7 @@ I found out my code is compatible with EmScripten...
 To compile it with emscripten instead of make run:
 `make emcc`
 in the root of the project (its the same command for all operating systems)
-To play it (without doing crazy stuff go [here](https://hdfsyu.itch.io/sdlgame) and then go to the description of the page.
+To play it without doing crazy stuff go [here](https://hdfsyu.itch.io/sdlgame)
 # Building 2
 To run it on windows run:
 `make win`
