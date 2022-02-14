@@ -39,7 +39,7 @@ void Game::init(const char* title, int xpos, int ypos, int width, int height, bo
 	}
 	map = new Map();
 	player.addComponent<PositionComponent>(100,500); // this sets the player start pos
-	player.addComponent<SpriteComponent>("assets/player.png");
+	player.addComponent<SpriteComponent>("assets/player.png"); // for now this is the only thing you can play around with, the next version (v2.5) will be the complete release
 }
 void Game::handleEvents() {
 	SDL_Event event;
